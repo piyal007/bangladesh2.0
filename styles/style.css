@@ -1,0 +1,748 @@
+/* Typography */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h5{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #0E0E0E;
+}
+p{
+    color: #0E0E0E;
+}
+.section-gap{
+    padding: 2rem 0;
+}
+section h3{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.btn-primary{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
+.btn-secondary{
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    padding: 0.6rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.hero-right img{
+    width: 100%;
+    height: 400px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0.6rem;
+}
+nav h3{
+    font-size: 2rem;
+    color: #0E0E0E;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.2s linear;
+}
+nav ul li a:hover{
+    background-color: #006A50;
+    color: #c1c1c1;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    background-color: #C6E4D6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    border-radius: 1.5rem;
+}
+<<<<<<< HEAD
+=======
+
+/* Desktop layout - image on right, content on left */
+.hero-content h6{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.hero-content h1{
+    font-size: 3rem;
+    color: #0E0E0E;
+    margin-bottom: 1rem;
+}
+.hero-image img{
+    width: 100%;
+    height: 400px;
+}
+
+/* Legacy support for old class names */
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+.hero-left h6{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.hero-left h1{
+    font-size: 3rem;
+    color: #0E0E0E;
+    margin-bottom: 1rem;
+}
+<<<<<<< HEAD
+=======
+.hero-right img{
+    width: 100%;
+    height: 400px;
+}
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+
+/* Card Section */
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.card-item{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.card-inside-content{
+    padding: 1.5rem;
+<<<<<<< HEAD
+=======
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+}
+.card-inside-content img{
+    margin-bottom: 1rem;
+}
+.card-inside-content h5{
+    margin-bottom: 1rem;
+}
+<<<<<<< HEAD
+=======
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    text-align: center;
+}
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+
+/* Vision Section */
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.vision-title{
+    margin-bottom: 1rem;
+}
+.vision-card{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+<<<<<<< HEAD
+
+
+=======
+}
+.vision-card .card-inside-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+}
+.card-inside-content button{
+    margin-top: 1rem;
+}
+.vision-card-1{
+    background-color: rgba(84, 144, 245, 0.1);
+}
+.vision-card-2{
+    background-color: rgba(9, 161, 92, 0.1);
+}
+.vision-card-3{
+    background-color: rgba(255, 194, 57, 0.1);
+}
+.vision-card-1 button{
+    background-color: #5490F5;
+}
+.vision-card-1 button:hover{
+    background-color: #FFFFFF;
+    color: #5490F5;
+    border: 1px solid #5490F5;
+}
+.vision-card-2 button{
+    background-color: #09A15C;
+}
+.vision-card-2 button:hover{
+    background-color: #FFFFFF;
+    color: #09A15C;
+    border: 1px solid #09A15C;
+}
+.vision-card-3 button{
+    background-color: #FFC239;
+}
+.vision-card-3 button:hover{
+    background-color: #FFFFFF;
+    color: #FFC239;
+    border: 1px solid #FFC239;
+}
+
+/* Vision Quote Section */
+.vision-quote{
+    background-image: url(../assets/quote-bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+.quote{
+    margin-bottom: 1rem;
+}
+
+/* Opinion Section */
+.survey-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.survey-table th {
+    background-color: #d2f4d7;
+    padding: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.survey-table tr{
+    border: 1px solid #e5e5e5;
+}
+.survey-table td {
+    padding: 12px;
+    color: #333;
+}
+.survey-table td:last-child {
+    text-align: right;
+}
+.survey-table tr:last-child td {
+    border-bottom: none;
+}
+select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+select:focus {
+    outline: none;
+    border-color: #86c8b9;
+    box-shadow: 0 0 4px rgba(134, 200, 185, 0.8);
+}
+
+/* News Section */
+
+.news-desc{
+    margin-bottom: 1rem;
+}
+.news-card{
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.btn-news{
+    background-color: #006A50;
+}
+.btn-news:hover{
+    color: #006A50;
+    background-color: #FFFFFF;
+    border: 1px solid #006A50;
+}
+.content-img{
+    border-radius: 1rem;
+}
+.news-inside-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    align-items: center;
+}
+<<<<<<< HEAD
+=======
+.news-card-text{
+    text-align: center;
+}
+.news-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+.news-date{
+    margin-bottom: 1rem;
+}
+.news-txt{
+    margin: 1rem 0;
+}
+.news-inside-content img{
+    margin: 0;
+}
+
+.news-card2 .card-inside-content{
+    flex-direction: row-reverse;
+}
+
+/* Donate Section */
+.donate-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.donate-title h5{
+    padding-bottom: 0.6rem;
+    font-size: 1.8rem;
+}
+.donate-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.donate-card-item{
+    padding: 2rem 5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+.donate-card-item:hover{
+    background-color: rgba(9, 161, 92, 0.1);
+}
+.donate-input-field {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    outline: transparent;
+}
+.donate-btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Subscribe Section */
+.subscribe-section{
+    background-color: rgba(9, 161, 92, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.subscribe-title{
+    margin-bottom: 1.5rem;
+}
+.subscribe-title h5{
+    margin-bottom: 0.6rem;
+}
+.subscribe-input{
+    display: flex;
+    justify-content: center;
+}
+.subscribe-input-field{
+    width: 60%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-weight: bold;
+    outline: transparent;
+}
+.btn-subscribe{
+    padding: 16px 35px;
+    border-radius: 0 10px 10px 0;
+}
+.btn-subscribe:hover{
+    border: 1px solid transparent;
+}
+.no-spam-txt{
+    margin-top: 1rem;
+}
+
+/* Footer-section */
+.footer-section{
+    background-color: #FFFFFF;
+    padding: 5rem 0;
+    text-align: center;
+}
+.footer-title{
+    margin-bottom: 2rem;
+}
+.footer-socialLink{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.icon{
+    margin: 0 10px;
+}
+.footer-hr{
+    background-color: rgba(14, 14, 14, 10);
+    text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet Styles (768px - 1023px) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
+    /* Hero Section */
+    .hero {
+        padding: 40px 60px;
+    }
+    
+    .hero-left h1 {
+        font-size: 2.5rem;
+    }
+    
+    /* Card Section */
+    .card-box {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .card-item {
+        flex: 1 1 calc(50% - 0.75rem);
+        min-width: 280px;
+    }
+    
+    /* Vision Cards */
+    .vision-cards {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .vision-card {
+        flex: 1 1 calc(50% - 0.75rem);
+        min-width: 280px;
+    }
+    
+    /* News Section */
+    .news-inside-content {
+        gap: 1.5rem;
+    }
+    
+    /* Donate Section */
+    .donate-card {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .donate-card-item {
+        flex: 1 1 calc(50% - 0.5rem);
+        padding: 1.5rem 3rem;
+    }
+    
+    /* Subscribe Section */
+    .subscribe-input-field {
+        width: 70%;
+    }
+}
+
+/* Mobile Styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    /* Typography adjustments */
+    section h3 {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+    
+    /* Navigation - Keep horizontal layout */
+    nav h3 {
+        font-size: 1.5rem;
+    }
+    
+    nav ul li a {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+    
+    /* Hero Section - Mobile: Image top, content bottom */
+    .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    /* New structure styles */
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-content h6 {
+        font-size: 18px;
+    }
+    
+    .hero-image img {
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    /* Legacy support for old class names */
+    .hero-left h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-left h6 {
+        font-size: 18px;
+    }
+    
+    .hero-right img {
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    /* Card Section */
+    .card-box {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .card-item {
+        width: 100%;
+    }
+    
+    /* Vision Section */
+    .vision-cards {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .vision-card {
+        width: 100%;
+    }
+    
+    .vision-quote {
+        background-size: 50px;
+        padding-top: 1rem;
+    }
+    
+    /* Opinion Section */
+    .survey-table {
+        font-size: 14px;
+    }
+    
+    .survey-table th,
+    .survey-table td {
+        padding: 8px;
+    }
+    
+    .survey-table th {
+        font-size: 12px;
+    }
+    
+    .survey-table td:last-child {
+        text-align: center;
+    }
+    
+    select {
+        padding: 6px 8px;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    /* News Section */
+    .news-inside-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .news-card2 .card-inside-content {
+        flex-direction: column;
+    }
+    
+    .news-card-img {
+        width: 100%;
+    }
+    
+    .content-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    /* Donate Section */
+    .donate-title h5 {
+        font-size: 1.4rem;
+    }
+    
+    .donate-card {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .donate-card-item {
+        padding: 1.5rem 2rem;
+        width: 100%;
+    }
+    
+    /* Subscribe Section */
+    .subscribe-input {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .subscribe-input-field {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .btn-subscribe {
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    /* Footer */
+    .footer-section {
+        padding: 3rem 0;
+    }
+    
+    .footer-socialLink {
+        margin-top: 1.5rem;
+    }
+    
+    .icon {
+        margin: 0 8px;
+    }
+}
+
+/* Extra Small Mobile (up to 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 98%;
+        padding: 0 5px;
+    }
+    
+    /* Hero Section - Extra Small Mobile: Image top, content bottom */
+    .hero {
+        padding: 20px 15px;
+    }
+    
+    /* New structure styles */
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-image img {
+        height: 200px;
+    }
+    
+    /* Legacy support for old class names */
+    .hero-left h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-right img {
+        height: 200px;
+    }
+    
+    /* Cards */
+    .card-inside-content {
+        padding: 1rem;
+    }
+    
+    /* Buttons */
+    .btn-primary {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    
+    .btn-secondary {
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+    }
+    
+    /* Donate cards */
+    .donate-card-item {
+        padding: 1rem 1.5rem;
+    }
+    
+    /* Typography */
+    section h3 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+>>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
+}
