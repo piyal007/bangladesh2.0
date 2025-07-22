@@ -98,12 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Design inspiration from modern government and development initiative websites
 - Font provided by Google Fonts
-<<<<<<< HEAD
 - Icons and images from various sources with appropriate licensing
-=======
-<<<<<<< HEAD
-- Icons and images from various sources with appropriate licensing
-=======
-- Icons and images from various sources with appropriate licensing
->>>>>>> 94e38013f00dd38ca552624f2c1e05d6933abb01
->>>>>>> d7aea90 (make UI mobile tab and desktop friendly and place hero section image at top in mobile view and make all card image, title and content center align)
