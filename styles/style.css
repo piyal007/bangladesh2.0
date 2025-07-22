@@ -294,6 +294,7 @@ select:focus {
     justify-content: space-between;
     gap: 2.5rem;
     align-items: center;
+    flex-direction: row; /* Default to horizontal layout for desktop */
 }
 .news-card-text{
     text-align: center;
@@ -313,7 +314,8 @@ select:focus {
     margin: 0;
 }
 
-.news-card2 .card-inside-content{
+/* News Card Layout for Tablet and Desktop */
+.news-card2 .news-inside-content{
     flex-direction: row-reverse;
 }
 
@@ -419,6 +421,20 @@ select:focus {
 
 /* ===== RESPONSIVE DESIGN ===== */
 
+/* Desktop Styles (1024px and above) */
+@media screen and (min-width: 1024px) {
+    /* News Section - Desktop Layout */
+    .news-inside-content {
+        flex-direction: row;
+        gap: 2.5rem;
+        text-align: left;
+    }
+    
+    .news-card2 .news-inside-content {
+        flex-direction: row-reverse;
+    }
+}
+
 /* Tablet Styles (768px - 1023px) */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .container {
@@ -488,6 +504,7 @@ select:focus {
     /* Section Container Gaps for Mobile */
     section {
         padding: 1.5rem 0;
+        text-align: center;
     }
     
     .section-gap {
@@ -608,7 +625,7 @@ select:focus {
         text-align: center;
     }
     
-    .news-card2 .card-inside-content {
+    .news-card2 .news-inside-content {
         flex-direction: column;
     }
     
@@ -677,6 +694,7 @@ select:focus {
     /* Section Container Gaps for Extra Small Mobile */
     section {
         padding: 1rem 0;
+        text-align: center;
     }
     
     .section-gap {
